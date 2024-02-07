@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment | HTML</title>
+    <style>
+        /* .ass p { */
+            /* font-weight: lighter; */
+        /* } */
+    </style>
+</head>
+
+<body background="https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+
+    
+    <h3>Q-1 Are the HTML tags and elements the same thing?</h3>
+    <p>Ans: The HTML tags and elements are Not the same thing,<br>HTML tags are special keywords surrounded by a pair of
+        angle brackets <tag keyword>. Most tags come in pairs, with an opening and closing tag. <br>Where HTML element
+            is a building block of an HTML document. It is a piece of code that defines the structure and content of a
+            web page. </p>
+
+    <h3>Q-2 What are tags and attributes in HTML?</h3>
+    <p>Ans: <b>HTML tags </b>- HTML tags are like keywords that define how a web browser will format and display
+        content. They contain three main parts: opening tag, content, and closing tag. <br>HTML attributes are used to
+        modify the behavior or appearance of an element. <br>
+        Ex: <b>&lt; b &gt; b tag &lt; /b &gt;</b> </p>
+    <p><b>HTML Attributes</b>- HTML attributes are special words used inside the opening tag to control the element's
+        behaviour. HTML attributes are a modifier of a HTML tags, Attributes provide additional information about
+        element. <br>
+        Ex: <b>&lt; a href ="https://www.google.com" &gt;</b> The href attribute specifies the URL of the page the link
+        goes to. </p>
+
+    <h3>Q-3 What are void elements in HTML? With Example.</h3>
+    <p>Ans: There is a special group of elements that only have start tags and does not contain any content within it,
+        these elements are called void elements. Void elements doesn’t have ending tags and can only have attributes but
+        do not contain any kind of content. These elements can have backslash before ending of start tag but that is
+        completely optional. <br>
+        Ex: <b>&lt; b &gt;</b>, <b>&lt; hr &gt;</b>, <b>&lt; img &gt;</b>, <b>&lt; input &gt;</b></p>
+
+    <h3>Q-4 What are HTML Entities? With Example.</h3>
+    <p>Ans: An HTML entity is used to display invisible characters and reserved characters that would otherwise be
+        interpreted as HTML code. It is a piece of text, or string, that begins with an ampersand (&) and ends with a
+        semicolon (;). <br>
+        Ex:
+    <blockquote> </blockquote>
+    </p>
+    <h3>Q-5 What are different types of lists in HTML? With Example.</h3>
+    <p>Ans: There are three types of lists in HTML. <br>
+        1. Unordered list or Bulleted list (ul) <br>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    2. Ordered list or Numbered list (ol) <br>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    3. Description list or Definition list (dl)</p>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    </p>
+
+    <h3>Q-6 What is the ‘class’ attribute in HTML? With Example.</h3>
+    <p>Ans: The class attribute specifies one or more class names for an element. <br>
+        ex. &lt;div  class="classname"&gt; &lt;/div &gt;</p>
+    <h3>Q-7 What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+        elements? With Example. </h3>
+    <p>Ans: A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page. <br>
+        Ex.     
+        &lt;div  class="classname"&gt; &lt;/div &gt; <br>
+        &lt;div  class="classname"&gt; &lt;/div &gt; <br>
+        &lt;div  id="idname"&gt; &lt;/div &gt;
+    </p>
+    <h3>Q-8 What are the various formatting tags in HTML?</h3>
+    <p>Ans: Formatting elements were designed to display special types of text: </p> <br>
+    <b>&lt;b &gt; &nbsp;Bold text </b><br> 
+    <b>&lt;strong &gt; &nbsp;Important text </b> <br>
+    <b>&lt;i &gt; &nbsp;Italic text </b> <br>
+    <b>&lt;em &gt; &nbsp;Emphasized text  </b><br>
+    <b>&lt;mark &gt; &nbsp;Marked text </b> <br>
+    <b>&lt;small &gt; &nbsp;Smaller text  </b><br>
+    <b>&lt;del &gt; &nbsp;Deleted </b> <br>
+    <b>&lt;ins &gt; &nbsp;Inserted text </b> <br>
+    <b>&lt;sub &gt; &nbsp;Subscript text </b> <br>
+    <b>&lt;sup &gt; &nbsp;Superscript text </b> <br> 
+
+    <h3>Q-9 How is Cell Padding different from Cell Spacing? With Example.</h3>
+    <p>Ans: Cell padding is the space between the cell edges and the cell content.By default the padding is set to 0.
+        <br>To add padding on table cells, use the CSS "padding" property: <br>
+        Ex: &nbsp;th, td { <br>
+        padding: 15px;
+        }
+    </p>
+
+    <h3>Q-10 How can we club two or more rows or columns into a single row or column in an HTML
+        table? With Example.</h3>
+    <p>Ans: It can be done by using the rowspan and colspan attribute in HTML. <br>
+        Ex:</p>
+    <table border="1">
+        <tr align="center">
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday</th>
+        </tr>
+        <tr align="center">
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr align="center">
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+    <h3>Q-11 What is the difference between a block-level element and an inline element? </h3>
+    <p> Ans: A block-level element always starts on a new line and takes up the full width available · An inline element
+        does not start on a new line and it only takes up as much width as necessary.</p>
+    <h3>Q-12 How to create a Hyperlink in HTML? With Example.</h3>
+    <p>Ans: First, start with your anchor tag:<a> </a><br>
+        Next, add your homepage’s URL using the href attribute: <br>
+        Ex: </p>
+    <a href="https://www.google.com">Google </a>
+    <h3>Q-13 What is the use of an iframe tag? With Example.</h3>
+    <p>Ans: The iframe in HTML stands for Inline Frame. The ” iframe ” tag defines a rectangular region within the
+        document in which the browser can display a separate document, including scrollbars and borders. An inline frame
+        is used to embed another document within the current HTML document. <br>
+        Ex: </p> <br>
+    <iframe src="https://www.pexels.com/" title="description"></iframe>
+    <h3>Q-14 What is the use of a span tag? Explain with example? </h3>
+    <p>Ans: Use span tag to wrap sections of text for styling purposes or to add attributes to a section of text without
+        creating a new line of content <br>
+        Ex:
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Span Tag</title>
+        </head>
+
+        <body>
+            <h4>Example of span tag:</h4>
+            <p>I have choosen only
+                <span style="color: red;">red</span>,
+                <span style="color: blue;">blue</span>, and
+                <span style="color: green;">green</span> colors for my painting.
+            </p>
+        </body>
+
+        </html>
+    <h3>Q-15 How to insert a picture into a background image of a web page? With Example.</h3>
+    <p>We can To add a background image on an HTML element, use the HTML style attribute and the CSS background-image
+        property: <br>
+        Ex: (attached in body tag background )</P>
+    <p style="background-image: url('img_girl.jpg');"></p>
+    <h3>Q-16 How are active links different from normal links?</h3>
+    <p>Ans: Active links are typically links that are currently functional and lead to live web pages, while normal
+        links can refer to any link, whether functional or broken. Active links are actively used and accessible, while
+        normal links may or may not be functional at a given time.
+
+    <h3>Q-17 What are the different tags to separate sections of text?</h3>
+    <p>Ans: We separate a section of texts in HTML using the below tags: <br>
+        &lt; br &gt;It is used to separate the line of text. It breaks the current line and shifts the flow of the text
+        to a new line. <br>
+        &lt;p&gt; This tag is used to write a paragraph of text. <br>
+    &lt;blockquote&gt; This tag is used to define large quoted sections.</p>
+        </p>
+        <h3>Q-18 What is SVG?</h3>
+        <p>Ans: SVG stands for Scalable Vector Graphics. SVG is used to define vector-based graphics for the Web. SVG defines the graphics in XML format. Every element and every attribute in SVG files can be animated. </p>
+<h3>Q-19 What is difference between HTML and XHTML?</h3>
+<p>Ans: HTML (HypertextMarkup Language) and XHTML (ExtensibleHypertext Markup Language) are both markup languages used for creating and displaying web pages. The main difference between them is the syntax and structure; HTML is more lenient in its syntax, while XHTML has a more strict syntax and follows XML rules.</p>
+<h3>Q-20  What are logical and physical tags in HTML?</h3>
+<p>Ans: Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names. Logical Tags : Logical Tags are used in HTML to display the text according to the logical styles.</p>
+
+
+
+
+
+
+
+</body>
+
+</html
